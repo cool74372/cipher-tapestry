@@ -47,6 +47,15 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        /* Custom cybersecurity colors */
+        terminal: {
+          DEFAULT: "hsl(var(--terminal))",
+          dim: "hsl(var(--terminal-dim))",
+        },
+        cyber: {
+          dark: "hsl(var(--cyber-dark))",
+          darker: "hsl(var(--cyber-darker))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +66,18 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'gradient-cyber': 'var(--gradient-cyber)',
+        'gradient-terminal': 'var(--gradient-terminal)',
+        'gradient-glow': 'var(--gradient-glow)',
+      },
+      boxShadow: {
+        'cyber': 'var(--shadow-cyber)',
+        'glow': 'var(--shadow-glow)',
+      },
+      fontFamily: {
+        'terminal': ['Courier New', 'Consolas', 'Lucida Console', 'monospace'],
       },
       borderRadius: {
         lg: "var(--radius)",
